@@ -172,7 +172,7 @@ def delete_one(name_bd:str, cmd:str, param):
 
 def function(name_bd:str, cmd:str):
     """Функция выполняет команду, переданную ей в аргументах,
-    где cmd - строка команды, param - дополнительный параметр"""
+    где cmd - строка команды"""
     result = None
     try:
         logging.info((f'Попытка подключения к БД {name_bd}'))
